@@ -1,4 +1,5 @@
 pipeline { 
+    agent any
 
     environment { 
 
@@ -10,12 +11,7 @@ pipeline {
 
     }
 
-    agent {
-
-        label "kk"
-
-    }
-
+ 
     stages { 
 
          stage('Checkout') {
