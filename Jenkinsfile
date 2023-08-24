@@ -4,7 +4,7 @@ pipeline {
 
         registry = "shubhamdev2001/jenkins-demo" 
 
-        registryCredential = 'docker-hub-credentials' 
+        registryCredential = 'b76d9d02-a526-44bb-bdbc-ebc3be9e9ac1' 
 
         dockerImage = '' 
 
